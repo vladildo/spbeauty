@@ -15,9 +15,9 @@ const Option = styled.div`
 function ListElement(props) {
     return (
       <div className='d-flex flex-row justify-content-between'>
-        <Option className='d-flex flex-row justify-content-between py-2'>{props.children}</Option>
-        <IconOnlyButton icon={<EditIcon />} />
-        <IconOnlyButton icon={<RemoveIcon />} />
+        <Option className='mr-auto p-2'>{props.children}</Option>
+        <IconOnlyButton className='p-2' icon={<EditIcon />} />
+        <IconOnlyButton className='p-2' icon={<RemoveIcon />} />
       </div>
     );
 }
