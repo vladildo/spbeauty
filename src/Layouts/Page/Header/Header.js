@@ -9,7 +9,7 @@ const Container = styled.div`
 
 function Header() {
     return (
-        <Container className='d-flex justify-content-end align-items-center align-self-center px-4 py-3'>
+        <Container className='d-flex justify-content-end align-items-center align-self-center px-5 py-3'>
             <div className='me-4'> 
                 <SearchField/>
             </div>
