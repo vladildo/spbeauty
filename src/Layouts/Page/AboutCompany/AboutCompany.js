@@ -5,8 +5,10 @@ function AboutCompany() {
   return (
     <div>
       <Heading /> {/* Заголовок и кнопка справа */}
-      <div className="d-flex justify-content-between gap-5 m-5">
-        <General /> {/* Основная информация вроде названия, типа и телефона */}
+      <div className="d-flex justify-content-between m-5">
+        <div className="general">
+          <General />
+        </div>
         <div className="border-addres">
           <Addresses />
         </div>{" "}
