@@ -9,7 +9,7 @@ function AboutCompany() {
         <div className="general">
           <General />
         </div>
-        <div className="border-addres">
+        <div className="border-addres d-flex flex-column justify-content-between p-4">
           <Addresses />
         </div>{" "}
         {/* Список доступных адресов заведений */}
