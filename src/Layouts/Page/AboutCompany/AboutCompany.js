@@ -1,7 +1,7 @@
 import Heading from "./Components/Heading";
 import General from "./Components/General/General";
 import Addresses from "./Components/Addresses/Addresses";
-import SecondaryButton from "./Components/Addresses/Addresses";
+import SecondaryButton from "../../../Components/SecondaryButton";
 
 function AboutCompany() {
   return (
