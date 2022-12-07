@@ -6,7 +6,7 @@ function AboutCompany() {
     <div>
       <Heading /> {/* Заголовок и кнопка справа */}
       <div className="d-flex justify-content-between gap-5 m-5">
-        <General style="width:447px"/> {/* Основная информация вроде названия, типа и телефона */}
+        <General /> {/* Основная информация вроде названия, типа и телефона */}
         <div className="border-addres">
           <Addresses />
         </div>{" "}
